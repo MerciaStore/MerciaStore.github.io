@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Loja Pokémon</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1220;
+      color: white;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .card {
+      background: #101a33;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      transition: 0.3s;
+    }
+    .card:hover {
+      background: #182a52;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+<h1>LOJA OFICIAL</h1>
+
+<div class="grid">
+  <a class="card" href="pokemons.html">POKÉMONS</a>
+  <a class="card" href="#">CONTAS</a>
+  <a class="card" href="#">ADDONS</a>
+  <a class="card" href="#">BAGS</a>
+  <a class="card" href="#">TMS & HMs</a>
+  <a class="card" href="#">HELD ITEMS</a>
+</div>
+
+</body>
+</html>
